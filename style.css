@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+a{
+    color: aliceblue;
+}
+/* HEADER START */
+.header{
+    width: 100vw;
+    min-height: 10vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 7em;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    animation: background auto linear;
+    animation-timeline: scroll(root);
+}
+@keyframes background{
+    from{
+background-color: transparent;
+    }
+    to{
+        background-color: black;
+    }
+}
+.heading{
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+.heading:hover{
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: lightgray;
+}
+nav a:hover{
+    color: aliceblue;
+}
+nav{
+padding-left: 22em;
+}
+/* HEADER END */
+
+/* HERO SECTION START  */
+
+/* HOME  START*/
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.home{
+     width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(https://assets.room.com/cdn/ff/akp_-sEJW71dlz3isFq1EcYduK88TvoLli6dTKOx5E8/1758651528/public/hallway-main-shot.jpg?t=1758651528);
+    background-position: center;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading2{
+   letter-spacing: 10px;
+   font-size: 60px;
+   font-weight:600;
+   color: aliceblue;
+font-weight: 100;
+   
+}
+.text{
+    color: lightgrey;
+    letter-spacing: 6px;
+    padding-top: 20px;
+}
+button{
+    padding: 15px 35px;
+    margin-top: 35px;
+    color: aliceblue;
+    border: 1px solid white;
+    background-color: transparent;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+/* HOME END */
+
+/* ADOUT START */
+.about{
+    width: 100vw;
+    height: auto;
+    padding-bottom: 50px;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1560264280-88b68371db39?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D);
+    background-position: center;
+    background-size: cover;
+}
+.heading3{
+padding-left: 550px;
+padding-top: 100px;
+
+font-size: 50px;
+color: aliceblue;
+font-weight: 100;
+
+}
+.container{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+
+}
+.container1{
+    width: 500px;
+    height: 550px;
+    background:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    margin-left: 170px;
+    color: rgb(219, 222, 224);
+    padding:30px;
+    
+}
+.img1{
+    float: left;
+    width: 250px;
+    height: 150px;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+.text2 ,.text3{
+    line-height: 2;
+    padding-bottom: 20px;
+    margin:  0 20px;
+}
+.container2{
+    width: 500px;
+    height: 550px;
+    background:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    margin-left: 40px;
+    padding: 10px;
+    color: rgb(219, 222, 224);  
+}
+.img2{
+      width: 350px;
+    height: 150px;
+    border-radius: 7px;
+    margin: 20px 70px;
+}
+.text4 ,.text5{
+    line-height: 2;
+    padding-bottom: 20px;
+    margin:  0 20px;
+}
+.end{
+    padding-left: 550px;
+    padding-top: 30px;
+    color: rgb(102, 101, 101);
+}
+/*  ABOUT END*/
+
+/* SERVICES START */
+.services{
+ width: 100vw;
+    height: 100vh;
+    padding-bottom: 50px;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(https://media.istockphoto.com/id/471296532/photo/planet-earth-at-night.jpg?s=612x612&w=0&k=20&c=n-9GMF-nYTuZJ5z6oc7sCo8MagfPlx2JeK-4visym_E=) ;
+     background-position: center;
+    background-size: cover;
+}
+.heading4{
+padding-left: 500px;
+padding-top: 200px;
+font-size: 50px;
+color: aliceblue;
+letter-spacing: 7px;
+word-spacing: 10px;
+font-weight: 100;
+}
+.text6{
+    padding-top: 20px;
+    color: rgb(163, 158, 158);
+    padding-left: 530px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.icon{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+.tablet{
+    text-align: center;
+}
+.cube{
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+}
+.mobile{
+    text-align: center;
+}
+i{
+    color: grey;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.iconh3{
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.ticon{
+    color: rgb(87, 85, 85);
+}
+/* SERVICES END */
+
+/* GALLERY START */
+.gallery{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://t4.ftcdn.net/jpg/02/81/89/73/360_F_281897358_3rj9ZBSZHo5s0L1ug7uuIHadSxh9Cc75.jpg);
+      background-position: center;
+    background-size: cover;
+}
+.heading5{
+padding-left: 500px;
+padding-top: 150px;
+font-size: 50px;
+color: aliceblue;
+letter-spacing: 7px;
+word-spacing: 10px;
+font-weight: 100;
+}
+.text7{
+    text-align: center;
+    padding-top: 30px;
+    line-height: 2;
+    color: rgb(154, 155, 156);
+
+}
+.line{
+    width: 50%;
+    height: 1px;
+    background-color: rgb(143, 140, 140);
+    margin: auto;
+    margin-top:50px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 50px;
+}
+.rate{
+    font-size: 50px;
+    font-weight: 400;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.numtext{
+    margin-left: -15px;
+    font-size: 13px;
+    color: rgb(131, 129, 129);
+}
+/* GALLERY END */
+
+/* CONTACT START */
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://img.magnific.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?semt=ais_hybrid&w=740&q=80) ;
+      background-position: center;
+    background-size: cover;  
+}
+.heading6{
+    padding-left: 500px;
+padding-top: 100px;
+font-size: 50px;
+color: aliceblue;
+letter-spacing: 7px;
+word-spacing: 10px;
+font-weight: 100;
+}
+.text8{
+    color: rgb(202, 198, 198);
+    padding-left: 530px;
+    padding-top: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.inputfield{
+    padding-left: 520px;
+    padding-top: 50px;
+    /* padding-bottom: 30px; */
+}
+.name{
+    padding: 15px 30px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgb(143, 142, 142);
+    margin-right: 20px;
+    color: aliceblue;
+    outline: none;
+
+}
+.email{
+    padding: 15px 30px;
+    background-color: transparent;
+    /* backdrop-filter: blur(8px); */
+    border: 1px solid rgb(143, 142, 142);
+    color: aliceblue;
+    outline: none;
+
+}
+.message{
+    padding: 25px;
+    margin-top: 30px;
+     background-color: transparent;
+    /* backdrop-filter: blur(8px); */
+    border: 1px solid rgb(143, 142, 142); 
+    color: aliceblue;
+    outline: none;
+}
+.input{
+    padding: 20px;
+    padding: 20px;
+    border: 1px solid rgb(143, 142, 142);
+     background-color: transparent;
+}
+.name:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.email:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.message:hover{
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+/* CONTACT END */
+
+/* HERO SECTION END */
+
+    /* FOOTER START */
+  .footer{
+        width: 100vw;
+        height: 10vh;
+        background-color: black;
+        color: aliceblue;
+        position: relative;
+    }
+    .textf{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 23px;
+        font-size: 13px;
+        color: gray;
+    }
+    /* FOOTER END */
+
+
