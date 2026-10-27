@@ -1,0 +1,165 @@
+@media(max-width:800px){
+    nav{
+        padding-left:3em;
+    }
+   nav a{
+    padding: 2px;
+   }
+   .header{
+    padding:2em ;
+   }
+   .heading2{
+    font-size: 37px;
+   }
+   .text{
+    font-size: 12px;
+   }
+   .about{
+    min-height: 100vh;
+   }
+   .heading3{
+padding-left: 250px;
+padding-top: 50px;
+}
+.container1{
+    margin-left:50px ;
+    width: 300px;
+   height: 1000px; 
+   font-size: 15px;
+
+}
+.container2{
+    width: 300px;
+    height: 750px;
+   font-size: 15px;
+   margin-top: -250px;
+
+}
+.img2 {
+    width: 200px;
+    margin: 15px 40px;
+}
+.end{
+    padding-left: 300px;
+}
+.heading4{
+    padding-left: 200px;
+}
+.text6{
+    padding-left: 250px;
+}
+.heading5{
+    padding-left: 200px;
+}
+.heading6{
+    padding-left: 200px;
+}
+.text8{
+    padding-left: 250px;
+}
+.inputfield{
+    padding-left: 200px;
+}
+}
+
+@media(max-width:500px){
+   .header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+    text-align: center;
+   } 
+   .heading2{
+    padding-left: 30px;
+    text-align: center;
+   }
+   .text{
+    letter-spacing: 5px;
+    padding-left: 35px;
+    text-align: center;
+   }
+   .heading3{
+    text-align: center;
+    padding-left: 20px;
+   }
+   .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 100px;
+   }
+   .container1{
+    width: 250px;
+    padding: 8px 8px;
+    margin-left: -20px;
+
+   }
+   .container2{
+    width: 250px;
+    margin-top: 10px;
+    margin-left: -20px;
+   }
+   .img1{
+    width: 230px;
+   }
+   .img2{
+    margin: 15px 20px;
+   }
+   .end{
+    padding: 35px;
+    margin-top: 10px;
+   }
+   .heading4{
+    padding-top: 50px;
+    padding-left: 15px;
+    text-align: center;
+   }
+   .text6{
+    padding-left: 15px;
+    text-align: center;
+   }
+   .icon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .heading5{
+    padding-left: 0;
+    text-align: center;
+   }
+   .text7{
+    text-align: center;
+    padding-left: 0;
+   }
+   .number{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .heading6{
+    padding-left: 0;
+    text-align: center;
+   }
+   .text8{
+    text-align: center;
+    padding-left: 0;
+   }
+   .inputfield{
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+   }
+   .name{
+    margin-right: 0;
+    margin-bottom: 20px;
+   }
+   .input{
+    padding: 10px 5px !important;
+    margin-bottom: 20px;
+}
+   
+   
+}

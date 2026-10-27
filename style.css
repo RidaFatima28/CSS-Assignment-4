@@ -80,7 +80,7 @@ font-weight: 100;
     letter-spacing: 6px;
     padding-top: 20px;
 }
-button{
+.exp{
     padding: 15px 35px;
     margin-top: 35px;
     color: aliceblue;
@@ -168,7 +168,7 @@ font-weight: 100;
 /* SERVICES START */
 .services{
  width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding-bottom: 50px;
     background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(https://media.istockphoto.com/id/471296532/photo/planet-earth-at-night.jpg?s=612x612&w=0&k=20&c=n-9GMF-nYTuZJ5z6oc7sCo8MagfPlx2JeK-4visym_E=) ;
      background-position: center;
@@ -223,10 +223,11 @@ i{
 /* GALLERY START */
 .gallery{
     width: 100vw;
-    height: 100vh;
+    mask-clip: 100vh;
     background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://t4.ftcdn.net/jpg/02/81/89/73/360_F_281897358_3rj9ZBSZHo5s0L1ug7uuIHadSxh9Cc75.jpg);
       background-position: center;
     background-size: cover;
+    padding-bottom: 20px;
 }
 .heading5{
 padding-left: 500px;
@@ -273,7 +274,7 @@ font-weight: 100;
 /* CONTACT START */
 .contact{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image:linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://img.magnific.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?semt=ais_hybrid&w=740&q=80) ;
       background-position: center;
     background-size: cover;  
@@ -333,6 +334,7 @@ font-weight: 100;
     padding: 20px;
     border: 1px solid rgb(143, 142, 142);
      background-color: transparent;
+     color: aliceblue;
 }
 .name:hover{
     border: 1px solid white;
